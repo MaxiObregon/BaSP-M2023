@@ -9,5 +9,7 @@ Create the local .html file and complete with the structure of the landing page.
 Create this readme file.
 Push the local folder with the .html & .md to the GitHub repository.
 
+## Week 03
+
 ## Authors
 -Maximiliano Obregón
