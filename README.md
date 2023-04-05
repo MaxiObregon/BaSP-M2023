@@ -10,6 +10,10 @@ Create this readme file.
 Push the local folder with the .html & .md to the GitHub repository.
 
 ## Week 03
-
+Create a .css file and attach all the necessary content.
+Add comments in the .css file.
+Create an specific sections in .html to work better with the .css.
+Add a folder with necessary images.
+Commit and push all in GitHub.
 ## Authors
 -Maximiliano Obregón
