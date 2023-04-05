@@ -1,0 +1,176 @@
+*{
+    font-family: Roboto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+header{
+    position: relative;
+    top: 5px;
+}
+h1{
+    color: #49A37B;
+    border: #49A37B;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+h1,h2,h3,h4{
+    color: #49A37B;
+}
+
+p{
+    font-size: large;
+}
+footer{
+    position: relative;
+    top: 650px;
+}
+
+
+
+.button{
+border-color: #49A37B;
+border-width: 1px;
+border-radius: 5%/15%;
+align-items: center;
+}
+.imgHamburguer{
+    position: absolute;
+    left: 0px;
+    right: 16.66%;
+    top: 5px;
+    bottom: 45.83%;
+    width: 45px;
+}
+.imgHome{
+    position: absolute;
+    left: 1110px;
+    right: 16.66%;
+    top: 0px;
+    bottom: 45.83%;
+    width: 45px;
+}
+.imgLogIn{
+    position: absolute;
+    left: 1155px;
+    right: 16.66%;
+    top: 3px;
+    bottom: 45.83%;
+    width: 45px;
+
+}
+.imgLogOut{
+    position: absolute;
+    left: 1200px;
+    right: 16.66%;
+    top: 0px;
+    bottom: 45.83%;
+    width: 45px;
+}
+.imgInformation{
+    position: absolute;
+    left: 1250px;
+    right: 16.66%;
+    top: 7px;
+    bottom: 45.83%;
+    width: 45px;
+}
+.imgLogo{
+    position: relative;
+    left: 550px;
+    right: 16.66%;
+    top: -50px;
+    bottom: 45.83%;
+    width: 350px;
+    height:200px;
+}
+.comentarioTitulo{
+    position: relative;
+    top: 25px;
+}
+
+.pFirst{
+    display: block;
+    position: relative;
+    height: 15px;
+    width: 400px;
+}
+
+.sectionFunctions1{
+    position: relative;
+    top: 5px;
+    height: 15px;
+    width: 400px;
+}
+.sectionFunctions2{
+    position: relative;
+    top: -25px;
+    left: 650px;
+    height: 15px;
+    width: 400px;
+}
+.sectionFunctions3{
+    position: relative;
+    top: 230px;
+    height: 15px;
+    width: 400px;
+}
+.sectionFunctions4{
+    position: relative;
+    left: 650px;
+    top: 200px;
+    height: 15px;
+    width: 400px;
+}
+
+
+.section1{
+    position: relative;
+    top: 50px;
+}
+.section2{
+    position: relative;
+    top: 100px;
+}
+.section3{
+    position: relative;
+    top: 620px;
+}
+    .section3h2{
+        position: relative;
+        left: 10px;
+        width: 150px;
+    }
+    .section3p{
+        position: relative;
+        left: 250px;
+        width: 950px;
+        top: -100px;
+    }
+.section4{
+    position: relative;
+    top: 600px;
+}
+    .section4form1{
+        position: relative;
+        width: 350px;
+    }
+    .section4form2{
+        position: relative;
+        top: -150px;
+        left: 550px;
+        width: 350px;
+    }
+    .section4form3{
+        position: relative;
+        top: 50px;
+        left: -550px;
+        width: 350px;
+    }
+.section5{
+    position: relative;
+    top: 650px;
+}
