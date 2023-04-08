@@ -1,0 +1,226 @@
+/*Style for all html*/
+*{
+    font-family: Roboto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+
+/*Style by labels*/
+header{
+    position: relative;
+    top: 5px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+h1{
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+h1,h2,h3,h4{
+    color: #49A37B;
+}
+
+p{
+    font-size: large;
+}
+footer{
+    position: relative;
+    padding-top: 50px;
+    border-top-style: solid;
+    border-color: black;
+    border-top-width: 1px;
+
+}
+
+
+/*Classes for images*/
+.imgHamburguer{
+    position: absolute;
+    left: 0px;
+    right: 16.66%;
+    top: 5px;
+    bottom: 45.83%;
+    width: 45px;
+}
+.imgHome{
+    position: absolute;
+    left: 1110px;
+    right: 16.66%;
+    top: 0px;
+    bottom: 45.83%;
+    width: 45px;
+}
+.imgLogIn{
+    position: absolute;
+    left: 1155px;
+    right: 16.66%;
+    top: 3px;
+    bottom: 45.83%;
+    width: 45px;
+
+}
+.imgLogOut{
+    position: absolute;
+    left: 1200px;
+    right: 16.66%;
+    top: 0px;
+    bottom: 45.83%;
+    width: 45px;
+}
+.imgInformation{
+    position: absolute;
+    left: 1250px;
+    right: 16.66%;
+    top: 7px;
+    bottom: 45.83%;
+    width: 45px;
+}
+.imgLogo{
+    position: relative;
+    left: 550px;
+    right: 16.66%;
+    top: -100px;
+    bottom: 45.83%;
+    width: 450px;
+    height:300px;
+}
+
+/*Style by buttons*/
+.button{
+    border-color: #49A37B;
+    border-width: 1px;
+    border-radius: 5%/15%;
+    align-items: center;
+    }
+
+/*Style by paragraphs*/
+.pFirst{
+    display: block;
+    position: relative;
+    height: 15px;
+    width: 400px;
+}
+
+/*Style by sections*/
+.section1{
+    position: relative;
+    top: 50px;
+    padding-bottom: 50px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+.section2{
+    position: relative;
+    top: 100px;
+    padding-bottom: 500px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+    .sectionFunctions1{
+        position: relative;
+        top: 5px;
+        height: 15px;
+        width: 400px;
+    }
+    .sectionFunctions2{
+        position: relative;
+        top: -25px;
+        left: 650px;
+        height: 15px;
+        width: 400px;
+    }
+    .sectionFunctions3{
+        position: relative;
+        top: 230px;
+        height: 15px;
+        width: 400px;
+    }
+    .sectionFunctions4{
+        position: relative;
+        left: 650px;
+        top: 200px;
+        height: 15px;
+        width: 400px;
+
+    }
+.section3{
+    position: relative;
+    top: 200px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+    .section3h2{
+        position: relative;
+        left: 10px;
+        width: 150px;
+    }
+    .section3p{
+        position: relative;
+        left: 250px;
+        width: 950px;
+        top: -100px;
+    }
+.section4{
+    position: relative;
+    top: 250px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+    .section4form1{
+        position: relative;
+        width: 350px;
+    }
+    .section4form2{
+        position: relative;
+        top: -150px;
+        left: 550px;
+        width: 300px;
+    }
+    .section4form3{
+        position: relative;
+        top: 50px;
+        left: -550px;
+        width: 350px;
+    }
+.section5{
+    position: relative;
+    top: 300px;
+
+}
+    .section5sub1{
+        position: relative;
+    }
+    .section5sub2{
+        position: relative;
+        top: -150px;
+        left: 185px;
+    }
+    .section5sub3{
+        position: relative;
+        top: -310px;
+        left: 550px;
+    }
+    .section5sub4{
+        position: relative;
+        top: -440px;
+        left: 900px;
+    }
+    .section5h4{
+        padding-left: 30px;
+    }
+
+
+/*Footer styles*/
+.footerIcons{
+    position: relative;
+    left: 500px;
+}
