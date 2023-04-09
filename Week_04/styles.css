@@ -1,6 +1,6 @@
 /*Style for all html*/
-*{
-    font-family: Roboto;
+* {
+    font-family: Roboto, font-family;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 10px;
@@ -8,27 +8,27 @@
 
 
 /*Style by labels*/
-header{
+header {
     position: relative;
-    top: 5px;
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 1px;
+
 }
-h1{
+h1 {
     font-weight: bolder;
     position: relative;
     top: 20px;
     left: 60px;
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4 {
     color: #49A37B;
 }
 
-p{
+p {
     font-size: large;
 }
-footer{
+footer {
     position: relative;
     padding-top: 50px;
     border-top-style: solid;
@@ -39,67 +39,53 @@ footer{
 
 
 /*Classes for images*/
-.imgHamburguer{
-    position: absolute;
-    left: 0px;
-    right: 16.66%;
-    top: 5px;
-    bottom: 45.83%;
+.img-hamburguer {
+    display: inline-block;
     width: 45px;
+    height: 45px;
 }
-.imgHome{
-    position: absolute;
-    left: 1110px;
-    right: 16.66%;
-    top: 0px;
-    bottom: 45.83%;
+.img-home {
+    display: inline-block;
     width: 45px;
+    height: 45px;
 }
-.imgLogIn{
-    position: absolute;
-    left: 1155px;
-    right: 16.66%;
-    top: 3px;
-    bottom: 45.83%;
+.img-log-in {
+    display: inline-block;
     width: 45px;
-
+    height: 45px;
 }
-.imgLogOut{
-    position: absolute;
-    left: 1200px;
-    right: 16.66%;
-    top: 0px;
-    bottom: 45.83%;
+.img-log-out {
+    display: inline-block;
     width: 45px;
+    height: 45px;
 }
-.imgInformation{
-    position: absolute;
-    left: 1250px;
-    right: 16.66%;
-    top: 7px;
-    bottom: 45.83%;
+.img-information {
+    display: inline-block;
     width: 45px;
+    height: 45px;
 }
-.imgLogo{
+.img-logo {
     position: relative;
     left: 550px;
-    right: 16.66%;
     top: -100px;
-    bottom: 45.83%;
     width: 450px;
     height:300px;
 }
 
 /*Style by buttons*/
-.button{
+.landing-button-readmore {
     border-color: #49A37B;
     border-width: 1px;
     border-radius: 5%/15%;
     align-items: center;
     }
 
+/*Styles by h1, h2, h3, h4*/
+.landing-h1 {
+    display: inline-block;
+}
 /*Style by paragraphs*/
-.pFirst{
+.landing-section-presentation-pp {
     display: block;
     position: relative;
     height: 15px;
@@ -107,7 +93,7 @@ footer{
 }
 
 /*Style by sections*/
-.section1{
+.landing-section-presentation {
     position: relative;
     top: 50px;
     padding-bottom: 50px;
@@ -115,7 +101,7 @@ footer{
     border-color: black;
     border-bottom-width: 1px;
 }
-.section2{
+.landing-section-functions {
     position: relative;
     top: 100px;
     padding-bottom: 500px;
@@ -123,104 +109,109 @@ footer{
     border-color: black;
     border-bottom-width: 1px;
 }
-    .sectionFunctions1{
-        position: relative;
-        top: 5px;
-        height: 15px;
-        width: 400px;
-    }
-    .sectionFunctions2{
-        position: relative;
-        top: -25px;
-        left: 650px;
-        height: 15px;
-        width: 400px;
-    }
-    .sectionFunctions3{
-        position: relative;
-        top: 230px;
-        height: 15px;
-        width: 400px;
-    }
-    .sectionFunctions4{
-        position: relative;
-        left: 650px;
-        top: 200px;
-        height: 15px;
-        width: 400px;
-
-    }
-.section3{
+.landing-section-about {
     position: relative;
     top: 200px;
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 1px;
 }
-    .section3h2{
-        position: relative;
-        left: 10px;
-        width: 150px;
-    }
-    .section3p{
-        position: relative;
-        left: 250px;
-        width: 950px;
-        top: -100px;
-    }
-.section4{
+    
+.landing-section-inquiries {
     position: relative;
-    top: 250px;
+    top: 230px;
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 1px;
 }
-    .section4form1{
-        position: relative;
-        width: 350px;
-    }
-    .section4form2{
-        position: relative;
-        top: -150px;
-        left: 550px;
-        width: 300px;
-    }
-    .section4form3{
-        position: relative;
-        top: 50px;
-        left: -550px;
-        width: 350px;
-    }
-.section5{
+.landing-section-plans {
     position: relative;
     top: 300px;
-
 }
-    .section5sub1{
-        position: relative;
-    }
-    .section5sub2{
-        position: relative;
-        top: -150px;
-        left: 185px;
-    }
-    .section5sub3{
-        position: relative;
-        top: -310px;
-        left: 550px;
-    }
-    .section5sub4{
-        position: relative;
-        top: -440px;
-        left: 900px;
-    }
-    .section5h4{
-        padding-left: 30px;
-    }
 
+/*Sub-sections into landing-section-function*/
+.landing-functions-subsection-reserves {
+    position: relative;
+    top: 5px;
+    height: 15px;
+    width: 400px;
+}
+.landing-functions-subsection-agenda {
+    position: relative;
+    top: -25px;
+    left: 650px;
+    height: 15px;
+    width: 400px;
+}
+.landing-functions-subsection-memberships {
+    position: relative;
+    top: 230px;
+    height: 15px;
+    width: 400px;
+}
+.landing-functions-subsection-sugerencies {
+    position: relative;
+    left: 650px;
+    top: 200px;
+    height: 15px;
+    width: 400px;
+}
+
+/*Sub-sections into landing-section-about*/
+.landing-about-subsection-title {
+    position: relative;
+    left: 10px;
+    width: 150px;
+}
+.landing-about-subsection-pp {
+    position: relative;
+    left: 250px;
+    width: 950px;
+    top: -100px;
+}
+
+/*Sub-sections into landing-section-inquiries */
+.landing-inquiries-subsection-inquirie {
+    position: relative;
+    width: 350px;
+}
+.landing-inquiries-subsection-reason {
+    position: relative;
+    top: -150px;
+    left: 550px;
+    width: 300px;
+}
+.landing-inquiries-subsection-comments {
+    position: relative;
+    width: 350px;
+    top: -100px;
+}
+
+/*Sub-sections into landing-section-plans*/
+.landing-section-plans-subtitles {
+    padding-left: 30px;
+}
+.landing-section-plans-c {
+    position: relative;
+}
+.landing-section-plans-black {
+    position: relative;
+    top: -150px;
+    left: 185px;
+}
+.landing-section-plans-classic {
+    position: relative;
+    top: -310px;
+    left: 550px;
+}
+.landing-section-plans-clases {
+    position: relative;
+    top: -440px;
+    left: 900px;
+}
 
 /*Footer styles*/
-.footerIcons{
+.landing-footer-logos {
     position: relative;
     left: 500px;
 }

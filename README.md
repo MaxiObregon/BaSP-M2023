@@ -17,12 +17,15 @@ Add a folder with necessary images.
 Commit and push all in GitHub.
 
 ## Week 04
-The errors of the second and thirt task was corrected. This errors are: 
+The errors of the second task was corrected. This errors are: 
 1. Moved the "footer" tag inside the body tag.
 2. The "br" tag in the .html file was removed.
 3. The action attribute of the forms was removed.
 4. Fixed "sapn" typo in some closing span tags.
 5. The identation of the form closing tag was corrected.
 6. Moved the identation level of both the body and the head.
+
+The errors of the thirt task was corrected. This errors are:
+1. 
 ## Authors
 -Maximiliano Obregón
