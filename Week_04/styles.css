@@ -9,7 +9,7 @@
 
 /*Style by labels*/
 header {
-    position: relative;
+    display: flex;
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 1px;
@@ -17,101 +17,111 @@ header {
 }
 h1 {
     font-weight: bolder;
-    position: relative;
-    top: 20px;
-    left: 60px;
+
 }
 h1,h2,h3,h4 {
     color: #49A37B;
+    text-shadow: 1px 1px 1px;
 }
 
 p {
     font-size: large;
 }
 footer {
-    position: relative;
-    padding-top: 50px;
     border-top-style: solid;
     border-color: black;
     border-top-width: 1px;
-
 }
 
 
 /*Classes for images*/
 .img-hamburguer {
-    display: inline-block;
     width: 45px;
     height: 45px;
 }
 .img-home {
-    display: inline-block;
+    margin-left: 50%;
     width: 45px;
     height: 45px;
 }
 .img-log-in {
-    display: inline-block;
+    margin-left: 2%;
     width: 45px;
     height: 45px;
 }
 .img-log-out {
-    display: inline-block;
+    margin-left: 2%;
     width: 45px;
     height: 45px;
 }
 .img-information {
-    display: inline-block;
+    margin-left: 2%;
     width: 45px;
     height: 45px;
 }
 .img-logo {
-    position: relative;
-    left: 550px;
-    top: -100px;
-    width: 450px;
-    height:300px;
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    height: 45%;
+}
+.img-turno-logo {
+    height: 45px;
+    width: 45px;
+}
+.img-calendar-logo{
+    height: 45px;
+    width: 45px;
+}
+.img-membership-logo{
+    height: 45px;
+    width: 45px;
+}
+.img-question-logo{
+    height: 45px;
+    width: 45px;
 }
 
 /*Style by buttons*/
 .landing-button-readmore {
+    position: relative;
+    top: 52%;
     border-color: #49A37B;
     border-width: 1px;
     border-radius: 5%/15%;
-    align-items: center;
     }
 
-/*Styles by h1, h2, h3, h4*/
-.landing-h1 {
-    display: inline-block;
-}
 /*Style by paragraphs*/
 .landing-section-presentation-pp {
     display: block;
-    position: relative;
+    display: flex;
     height: 15px;
     width: 400px;
 }
 
 /*Style by sections*/
 .landing-section-presentation {
-    position: relative;
-    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 300px;
     padding-bottom: 50px;
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 1px;
 }
 .landing-section-functions {
-    position: relative;
-    top: 100px;
-    padding-bottom: 500px;
+    height: 350px;
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 1px;
 }
 .landing-section-about {
-    position: relative;
-    top: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 230px;
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 1px;
@@ -119,52 +129,36 @@ footer {
     
 .landing-section-inquiries {
     position: relative;
-    top: 230px;
+    height: 450px;
     border-bottom-style: solid;
     border-color: black;
     border-bottom-width: 1px;
 }
 .landing-section-plans {
-    position: relative;
-    top: 300px;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
 }
 
 /*Sub-sections into landing-section-function*/
-.landing-functions-subsection-reserves {
-    position: relative;
-    top: 5px;
-    height: 15px;
-    width: 400px;
+.landing-functions-subtitle {
+    display: flex;
 }
-.landing-functions-subsection-agenda {
-    position: relative;
-    top: -25px;
-    left: 650px;
-    height: 15px;
-    width: 400px;
+.landing-section-function-first {
+    display: flex;
 }
-.landing-functions-subsection-memberships {
-    position: relative;
-    top: 230px;
-    height: 15px;
-    width: 400px;
-}
-.landing-functions-subsection-sugerencies {
-    position: relative;
-    left: 650px;
-    top: 200px;
-    height: 15px;
-    width: 400px;
+.landing-section-function-second {
+    display: flex;
 }
 
 /*Sub-sections into landing-section-about*/
 .landing-about-subsection-title {
-    position: relative;
+    display: flex;
     left: 10px;
     width: 150px;
 }
 .landing-about-subsection-pp {
-    position: relative;
+    display: flex;
     left: 250px;
     width: 950px;
     top: -100px;
@@ -179,39 +173,84 @@ footer {
     position: relative;
     top: -150px;
     left: 550px;
-    width: 300px;
+    width: 320px;
 }
 .landing-inquiries-subsection-comments {
     position: relative;
+    top: -110px;
     width: 350px;
-    top: -100px;
 }
 
 /*Sub-sections into landing-section-plans*/
 .landing-section-plans-subtitles {
-    padding-left: 30px;
-}
-.landing-section-plans-c {
     position: relative;
+    left: 30px;
 }
-.landing-section-plans-black {
-    position: relative;
-    top: -150px;
-    left: 185px;
-}
-.landing-section-plans-classic {
-    position: relative;
-    top: -310px;
-    left: 550px;
-}
-.landing-section-plans-clases {
-    position: relative;
-    top: -440px;
-    left: 900px;
+.landing-section-subplans {
+    display: flex;
+    flex-direction: column;
+
 }
 
 /*Footer styles*/
+.landing-footer-images{
+    display: flex;
+    justify-content: center;
+}
 .landing-footer-logos {
-    position: relative;
-    left: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Media queries */
+/*Mobile*/
+@media screen and (min-width: 390px) and (max-width: 600px) {
+    .landing-section-presentation {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 600px;
+        padding-bottom: 50px;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    .landing-section-functions {
+        height: 750px;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    .landing-section-about {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 430px;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+        
+    .landing-section-inquiries {
+        position: relative;
+        height: 850px;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    .landing-section-plans {
+        display: flex;
+        justify-content: space-around;
+        height: 450px;
+    }
+}
+/*Tablet*/
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    
+}
+
+/*Desktop*/
+@media screen and (min-width: 1025px) {
+    
 }

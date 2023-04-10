@@ -25,7 +25,15 @@ The errors of the second task was corrected. This errors are:
 5. The identation of the form closing tag was corrected.
 6. Moved the identation level of both the body and the head.
 
-The errors of the thirt task was corrected. This errors are:
-1. 
+The errors of the third task was corrected. This errors are:
+1.  The name of classes is changed from camelCase to kebab-case.
+2. The name of the tags now have no numbers and are more specific.
+3. The properties of the selectors have been reorganized in some cases.
+4. In the labels where possible, the "position:absolute" attribute was changed to a "display: inline-block" attribute.
+5. There is now a space between the label name and the opening key.
+6. Now all labels are identified at the same level.
+7. Removed empty spaces in some label blocks.
+8. he prefix "BaSP-W03-2023" is added at the time of commit.
+9. Now the "imgs" folder is inside the "assets" folder.
 ## Authors
 -Maximiliano Obregón
