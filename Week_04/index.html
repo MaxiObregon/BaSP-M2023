@@ -6,20 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mega Rocket</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="mobile.css">
     </head>
     <body>
         <header>
-            <img class="img-hamburguer" src="assets/imgs/hamburguer.png" alt="logoBurguerMenu">
-            <h1 class="landing-h1" > MEGA ROCKET SA</h1>
-            <img class="img-home" src="assets/imgs/home.png" alt="logo-home">
-            <img class="img-log-in" src="assets/imgs/sing_in.png" alt="logo-user">
-            <img class="img-log-out" src="assets/imgs/log_out.png" alt="logo-exit">
-            <img class="img-information" src="assets/imgs/information.png" alt="logo-info">
+            <img class="img-header img-header-hamburguer" src="assets/imgs/hamburguer.png" alt="logoBurguerMenu">
+            <h1> MEGA ROCKET SA</h1>
+            <img class="img-home img-header" src="assets/imgs/home.png" alt="logo-home">
+            <img class="img-others-header img-header" src="assets/imgs/sing_in.png" alt="logo-user">
+            <img class="img-others-header img-header" src="assets/imgs/log_out.png" alt="logo-exit">
+            <img class="img-others-header img-header" src="assets/imgs/information.png" alt="logo-info">
         </header>
         <main>
             <section class="landing-section-presentation">
-            <h2>Hi, I`m Mega Rocket gym</h2>
-            <h4>A free and fully responsive  site template</h4>
+            <h2 class="mobile-landing-header-title" >Hi, I`m Mega Rocket gym</h2>
+            <h4 class="mobile-landing-header-title" >A free and fully responsive  site template</h4>
             <p class="landing-section-presentation-pp">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Vero harum ea eligendi maiores recusandae voluptas officiis soluta minus inventore? 
@@ -27,33 +28,37 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Error unde voluptas molestias iusto repellat harum beatae adipisci consequatur doloremque fugit quia aliquam, 
                 sit placeat. Possimus, aperiam? Magni aliquid ut voluptas!</p>
-            <input class="landing-button-readmore" onClick="#" type=button value="Read more" name="boton">
-            <img class="img-logo" src="assets/imgs/big_logo.jpg" alt="logo">
+            <input class="button-readmore" onClick="#" type=button value="Read more" name="boton">
+            <img class="img-logo" src="assets/imgs/background-logo.png" alt="logo">
             </section>
             
             <section class="landing-section-functions" >
             <h2 class="landing-functions-subtitle" >Funciones en la app</h2>
-            <section class="landing-section-function-first">
+            <section class="landing-section-functionbox">
             <img class="img-turno-logo" src="assets/imgs/turno_logo.png" alt="icono-reserva">
             <h4>Reserva de turnos</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, 
-                praesentium. Excepturi deserunt ipsum, amet minus odio odit sunt hic dignissimos 
-                voluptatem doloribus, modi architecto, doloremque tempora. Praesentium error non nam!</p>
-            <img class="img-calendar-logo" src="assets/imgs/calendar_logo.png" alt="icono-agenda">
-            <h4>Visualización de agenda y horarios</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, 
+            <p class="landing-functions-pp" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, 
                 praesentium. Excepturi deserunt ipsum, amet minus odio odit sunt hic dignissimos 
                 voluptatem doloribus, modi architecto, doloremque tempora. Praesentium error non nam!</p>
             </section>
-            <section class="landing-section-function-second">
-            <img class="img-membership-logo" src="assets/imgs/membership_logo.png" alt="icono-membresias">
-            <h4>Gestión de membresías</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, 
+            <section class="landing-section-functionbox">
+            <img class="img-calendar-logo" src="assets/imgs/calendar_logo.png" alt="icono-agenda">
+            <h4>Visualización de agenda y horarios</h4>
+            <p class="landing-functions-pp" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, 
                 praesentium. Excepturi deserunt ipsum, amet minus odio odit sunt hic dignissimos 
                 voluptatem doloribus, modi architecto, doloremque tempora. Praesentium error non nam!</p>
+            </section>
+            <section class="landing-section-functionbox">
+            <img class="img-membership-logo" src="assets/imgs/membership_logo.png" alt="icono-membresias">
+            <h4>Gestión de membresías</h4>
+            <p class="landing-functions-pp" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, 
+                praesentium. Excepturi deserunt ipsum, amet minus odio odit sunt hic dignissimos 
+                voluptatem doloribus, modi architecto, doloremque tempora. Praesentium error non nam!</p>
+            </section>
+            <section class="landing-section-functionbox">
             <img class="img-question-logo" src="assets/imgs/question_logo.png" alt="icono-sugerencias">
             <h4>Formulario de contacto y sugerencias</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, 
+            <p class="landing-functions-pp" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, 
                 praesentium. Excepturi deserunt ipsum, amet minus odio odit sunt hic dignissimos 
                 voluptatem doloribus, modi architecto, doloremque tempora. Praesentium error non nam!</p>
             </section>
@@ -81,12 +86,18 @@
             </form>
             <form class="landing-inquiries-subsection-reason">
             <h2>Motivo</h2>
+                <div class="landing-inquiries-checkbox-align" >    
                 <input type="radio" name="membresias"	value="membresias">
                 <span>Quiero conocer las membresías y costos</span>
+                </div>
+                <div class="landing-inquiries-checkbox-align" >
                 <input type="radio" name="Consulta"	value="sugerencias">
                 <span>Quiero realizar una consulta o sugerencia</span>
+                </div>
+                <div class="landing-inquiries-checkbox-align" >
                 <input type="radio" name="Reclamo" value="reclamo">
                 <span>Quiero realizar un reclamo</span>
+                </div>
             </form>
             <form class="landing-inquiries-subsection-comments">
             <h2>Comentarios</h2>
@@ -97,7 +108,7 @@
 
             <section class="landing-section-plans">
             <section class="landing-section-subplans" >
-            <h4 class="landing-section-plans-subtitles">C</h4>
+            <h4 class="landing-section-plans-subtitles">Actividades</h4>
             <ul>
                 <li>Crossfit</li>
                 <li>Spinning</li>
@@ -138,7 +149,7 @@
             <img src="assets/imgs/wpp_logo.png" alt="logoWpp">
             <img src="assets/imgs/ig_logo.png" alt="logoIg">
             </section>
-            <p class="landing-footer-logos">MEGA ROCKET SA 2023</p>
+            <p class="landing-footer-logos">© MEGA ROCKET SA 2023</p>
         </footer>
     </body>
     

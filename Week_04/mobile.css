@@ -1,0 +1,409 @@
+@media screen and (min-width: 390px) and (max-width: 600px) {
+    /*GENERAL LABEL*/
+    * {
+        font-family: Roboto, font-family;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 5px;
+    }
+
+    /*HEADER*/
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .mobile-landing-header-title{
+        color: black;
+    }
+    .img-header {
+        display: flex;
+        justify-content: start;
+        height: 9%;
+        width: 9%;
+    }
+    .img-home {
+        margin-left: 0%;
+    }
+    .img-header-hamburguer {
+        position: relative;
+        align-items: flex-start;
+        top: 45px;
+        left: -35%;
+        height: 45px;
+        width: 45px;
+    }
+
+    /*PRESENTATION*/
+    .landing-section-presentation {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: 450px;
+        padding-bottom: 50px;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+        background-image: url(assets/imgs/background-logo.png);
+        background-size: cover;
+    }
+    .img-logo {
+        display: none;
+        position: absolute;
+        left: 50%;
+        width: 40%;
+        height: 45%;
+    }
+    .button-readmore {
+        position: relative;
+        top: 52%;
+        height: 50px;
+        width: 120px;
+        border-color: #49A37B;
+        border-width: 1px;
+        border-radius: 5%/15%;
+        }
+
+    /*FUNCTIONS*/
+    .landing-section-functions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1100px;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    .landing-functions-subtitle {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 5px 0px 0px 0px;
+    }
+    .landing-section-functionbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .img-turno-logo {
+        height: 15%;
+        width: 15%;
+    }
+    .img-calendar-logo{
+        height: 15%;
+        width: 15%;
+    }
+    .img-membership-logo{
+        height: 15%;
+        width: 15%;
+    }
+    .img-question-logo{
+        height: 15%;
+        width: 15%;
+    }
+
+    /*ABOUT*/
+    .landing-section-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: 350px;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    .landing-about-subsection-title {
+        display: flex;
+        justify-content: center;
+        left: 0px;
+        width: 150px;
+        text-align: center;
+    }
+    .landing-about-subsection-pp {
+        display: flex;
+        justify-content: center;
+        left: 0px;
+        width: 100%;
+        top: 0px;
+    }
+
+    /*INQUIRIES*/
+    .landing-section-inquiries {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 550px;
+        width: 100%;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    .landing-inquiries-subsection-inquirie {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+    }
+    .landing-inquiries-subsection-reason {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: -0px;
+        left: 0px;
+    }
+    .landing-inquiries-subsection-comments {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        top: 0px;
+    }
+
+    /*PLANS*/
+    .landing-section-plans {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 100%;
+    }
+    .landing-section-subplans {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .landing-section-plans-subtitles {
+        left: 0px;
+        margin-bottom: 0px;
+        font-size: x-large;
+    }
+
+    /*FOOTER*/
+    /*Images*/
+    .img-hamburguer {
+        width: 7%;
+        height: 7%;
+    }
+}
+/*Tablet*/
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+        /*Labels by sections*/
+        * {
+            font-family: Roboto, font-family;
+            margin-left: 1px;
+            margin-right: 1px;
+            margin-top: 5px;
+        }
+    
+        /*HEADER*/
+        header{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 100%;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .mobile-landing-header-title{
+            color: black;
+        }
+        .img-header {
+            display: flex;
+            justify-content: start;
+            height: 7%;
+            width: 7%;
+        }
+        .img-home {
+            margin-left: 0%;
+        }
+        .img-header-hamburguer {
+            position: relative;
+            align-items: flex-start;
+            top: 45px;
+            left: -30%;
+            height: 45px;
+            width: 45px;
+        }
+    
+        /*PRESENTATION*/
+        .landing-section-presentation {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: flex-start;
+            height: 350px;
+            width: 100%;
+            padding-bottom: 50px;
+            border-bottom-style: solid;
+            border-color: black;
+            border-bottom-width: 1px;
+        }
+        .img-logo {
+            display: flex;
+            position: absolute;
+            top: 40%;
+            left: 60%;
+            width: 40%;
+            height: 45%;
+        }
+        .button-readmore {
+            position: relative;
+            top: 52%;
+            height: 40px;
+            width: 100px;
+            border-color: #49A37B;
+            border-width: 1px;
+            border-radius: 5%/15%;
+            }
+    
+        /*FUNCTIONS*/
+        .landing-section-functions {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 1100px;
+            border-bottom-style: solid;
+            border-color: black;
+            border-bottom-width: 1px;
+        }
+        .landing-functions-subtitle {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: 5px 0px 0px 0px;
+        }
+        .landing-section-functionbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 0px;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        .img-turno-logo {
+            height: 15%;
+            width: 15%;
+        }
+        .img-calendar-logo{
+            height: 15%;
+            width: 15%;
+        }
+        .img-membership-logo{
+            height: 15%;
+            width: 15%;
+        }
+        .img-question-logo{
+            height: 15%;
+            width: 15%;
+        }
+
+        /*ABOUT*/
+        .landing-section-about {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            height: 300px;
+            border-bottom-style: solid;
+            border-color: black;
+            border-bottom-width: 1px;
+        }
+        .landing-about-subsection-title {
+            display: flex;
+            justify-content: center;
+            left: 0px;
+            width: 150px;
+            text-align: center;
+        }
+        .landing-about-subsection-pp {
+            display: flex;
+            justify-content: center;
+            left: 0px;
+            width: 100%;
+            top: 0px;
+        }
+    
+        /*INQUIRIES*/
+        .landing-section-inquiries {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 550px;
+            width: 100%;
+            border-bottom-style: solid;
+            border-color: black;
+            border-bottom-width: 1px;
+        }
+        .landing-inquiries-subsection-inquirie {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 95%;
+        }
+        .landing-inquiries-subsection-reason {
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+            top: -0px;
+            left: 0px;
+        }
+        .landing-inquiries-subsection-comments {
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+            top: 0px;
+        }
+    
+        /*PLANS*/
+        .landing-section-plans {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .landing-section-subplans {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        .landing-section-plans-subtitles {
+            left: 0px;
+            margin-bottom: 0px;
+            font-size: x-large;
+        }
+    
+        /*FOOTER*/
+        /*Images*/
+        .img-hamburguer {
+            width: 7%;
+            height: 7%;
+        }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1025px) {
+    
+}

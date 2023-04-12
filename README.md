@@ -35,5 +35,17 @@ The errors of the third task was corrected. This errors are:
 7. Removed empty spaces in some label blocks.
 8. he prefix "BaSP-W03-2023" is added at the time of commit.
 9. Now the "imgs" folder is inside the "assets" folder.
+
+I added what I learned in week four:
+- I use the flexbox functions to substitute the absolute/relative positions.
+- I create the three media queries dimensions (Mobile, tablet and desktop)
+- I work with the concept mobile first.
+- I redistributed the ticket order logic within the media queries (going from large to small tag order to tag order by sections), making it easier to search for tags and work by sections.
+- I change the main image (of cat by Radium logo)
+- I any cases, optimize some identique labels for an unique label.
+
+## Link to weekly repository: 
+
+
 ## Authors
 -Maximiliano Obregón
