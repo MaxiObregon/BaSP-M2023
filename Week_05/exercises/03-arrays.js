@@ -28,6 +28,6 @@ meses.reverse();
 let join_meses = meses.join('-');
 console.log(join_meses);
 
-/*Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice). */
+/* 7. Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).*/
 let sub_meses = meses.slice(4, 11);
 console.log(sub_meses);
