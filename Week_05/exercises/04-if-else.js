@@ -8,6 +8,7 @@ if (number >= 0.5) {
   alert("Lower than 0.5");
 }*/
 
+
 /* 2. Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
 1- “Bebe” si la edad es menor a 2 años;
 2- “Niño” si la edad es entre 2 y 12 años;
