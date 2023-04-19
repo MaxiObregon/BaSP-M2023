@@ -1,10 +1,11 @@
-@media screen and (min-width: 390px) and (max-width: 600px) {
+
     /*GENERAL LABEL*/
     * {
         font-family: Roboto, font-family;
         margin-left: 1px;
         margin-right: 1px;
         margin-top: 5px;
+        box-sizing: border-box;
     }
 
     /*HEADER*/
@@ -142,16 +143,6 @@
     }
 
     /*INQUIRIES*/
-    .landing-section-inquiries {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 550px;
-        width: 100%;
-        border-bottom-style: solid;
-        border-color: black;
-        border-bottom-width: 1px;
-    }
     .landing-inquiries-subsection-inquirie {
         display: flex;
         flex-direction: column;
@@ -195,11 +186,12 @@
 
     /*FOOTER*/
     /*Images*/
-    .img-hamburguer {
+    .c {
         width: 7%;
         height: 7%;
     }
-}
+
+
 /*Tablet*/
 @media screen and (min-width: 601px) and (max-width: 1024px) {
         /*Labels by sections*/
@@ -255,14 +247,17 @@
             border-bottom-style: solid;
             border-color: black;
             border-bottom-width: 1px;
+            background-image: none;
+            background-size: none;
         }
+
         .img-logo {
             display: flex;
             position: absolute;
-            top: 40%;
-            left: 60%;
-            width: 40%;
-            height: 45%;
+            top: 23%;
+            left: 62%;
+            width: 35%;
+            height: 35%;
         }
         .button-readmore {
             position: relative;
@@ -394,16 +389,260 @@
             margin-bottom: 0px;
             font-size: x-large;
         }
-    
-        /*FOOTER*/
-        /*Images*/
-        .img-hamburguer {
-            width: 7%;
-            height: 7%;
-        }
+
+        
 }
 
 /*Desktop*/
 @media screen and (min-width: 1025px) {
+
+    * {
+        font-family: Roboto, font-family;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+        
+    /*HEADER*/
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100%;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    h1 {
+        font-weight: bolder;
+        margin-bottom: 0px;
+    }
+    .mobile-landing-header-title{
+        color: #49A37B;
+    }
+    .img-hamburguer {
+        width: 7%;
+        height: 7%;
+    }
+    .img-header {
+        display: flex;
+        justify-content: center;
+        height: 3%;
+        width: 3%;
+    }
+    .img-home {
+        margin-left: 80%;
+    }
+    .img-header-hamburguer{
+        position: relative;
+        align-items: flex-start;
+        top: 95px;
+        left: -47%;
+        height: 45px;
+        width: 45px;
+    }
+    .img-others-header {
+        margin-left: 2%;
+    }
     
+    /*PRESENTATION*/
+    .landing-section-presentation {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: none;
+        height: 450px;
+        width: 100%;
+        padding-bottom: 50px;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+        background-image: none;
+        background-size: none;
+    }   
+    .img-logo {
+        display: flex;
+        position: absolute;
+        top: 23%;
+        left: 62%;
+        width: 35%;
+        height: 45%;
+    }
+    .button-readmore {
+        position: relative;
+        top: 52%;
+        height: 50px;
+        width: 120px;
+        border-color: #49A37B;
+        border-width: 1px;
+        border-radius: 5%/15%;
+    }
+    
+    /*FUNCTIONS*/
+    .landing-section-functions {
+        display: flex;
+        align-items: none;
+        justify-content: none;
+        flex-wrap: wrap;
+        height: 550px;
+        width: 100%;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    .landing-functions-subtitle {
+        display: flex;
+        justify-content: none;
+        width: 100%;
+        margin: 5px 0px 0px 0px;
+    }
+    .landing-section-functionbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: none;
+        width: 500px;
+        margin-top: 0px;
+        margin-left: 90px;
+        margin-right: 0px;
+    }
+    .img-turno-logo {
+        height: 15%;
+        width: 15%;
+    }
+    .img-calendar-logo {
+        height: 15%;
+        width: 15%;
+    }
+    .img-membership-logo {
+        height: 15%;
+        width: 15%;
+    }
+    .img-question-logo {
+        height: 15%;
+        width: 15%;
+    }
+    
+    /*ABOUT*/
+    .landing-section-about {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 230px;
+        width: 100%;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    .landing-about-subsection-title {
+        display: flex;
+        justify-content: none;
+        left: 10px;
+        width: 150px;
+        text-align: none;
+    }
+    .landing-about-subsection-pp {
+        display: flex;
+        justify-content: none;
+        left: 250px;
+        width: 950px;
+        top: -100px;
+    }
+    
+    /*INQUIRIES*/
+    .landing-section-inquiries {
+        position: relative;
+        margin-top: 15px;
+        height: 500px;
+        width: 100%;
+        border-bottom-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+    }
+    .landing-inquiries-subsection-inquirie {
+        display: flex;
+        flex-direction: none;
+        justify-content: none;
+        position: relative;
+        width: 350px;
+    }
+    .landing-inquiries-subsection-reason {
+        position: relative;
+        top: -150px;
+        left: 550px;
+        width: 320px;
+    }
+    .landing-inquiries-subsection-comments {
+        position: relative;
+        top: -110px;
+        width: 350px;
+    }
+    
+    /*PLANS*/
+    .landing-section-plans {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        height: 300px;
+        width: 100%;
+    }
+    .landing-section-subplans {
+        display: flex;
+        flex-direction: column;
+        align-items: none;
+        justify-content: none;
+        margin-top: 0px;
+    }
+
+    /*FOOTER*/
+    footer {
+        width: 100%;
+        border-top-style: solid;
+        border-color: black;
+        border-top-width: 1px;
+    }
+    .landing-footer-images{
+        display: flex;
+        justify-content: center;
+    }
+    .landing-footer-logos {
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*Style by labels*/
+    
+    h1,h2,h3,h4 {
+        color: #49A37B;
+        text-shadow: 1px 1px 1px;
+    }
+    
+    p {
+        font-size: large;
+    }   
+        
+    /*Classes for images*/
+    
+   
+    
+    /*Style by paragraphs*/
+        .landing-section-presentation-pp {
+        display: flex;
+        height: 15px;
+        width: 400px;
+    }
+    .landing-functions-pp {
+        display: flex;
+        justify-content: center;
+        width: 75%;
+    }
+        
+    /*Sub-sections into landing-section-plans*/
+    
+    .landing-inquiries-checkbox-align {
+        display: flex;
+    }
 }

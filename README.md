@@ -44,6 +44,11 @@ I added what I learned in week four:
 - I change the main image (of cat by Radium logo)
 - I any cases, optimize some identique labels for an unique label.
 
+## Week 05
+- I add the corrections of the fourth task.
+- I complete all the Javascript exercises that corresponding to the fifth deliver.
+- The error of the link to the repository was fixed.
+
 ## Link to weekly repository: 
 https://basp-2023.netlify.app (temporary)
 
