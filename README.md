@@ -49,8 +49,10 @@ I added what I learned in week four:
 - I complete all the Javascript exercises that corresponding to the fifth deliver.
 - The error of the link to the repository was fixed.
 
-## Link to weekly repository: 
-https://basp-2023.netlify.app (temporary)
+## Link to repository of the fourth week:
+https://maxiobregon.github.io/BaSP-M2023/Week_04/
+## Link to repository of the fifth week: 
+https://maxiobregon.github.io/BaSP-M2023/Week_05/
 
 ## Authors
 -Maximiliano Obregón
