@@ -1,0 +1,212 @@
+/*Style for all html*/
+* {
+    font-family: Roboto, font-family;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+
+/*Style by labels*/
+header {
+    display: flex;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+h1 {
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+h1,h2,h3,h4 {
+    color: #49A37B;
+    text-shadow: 1px 1px 1px;
+}
+
+p {
+    font-size: large;
+}
+footer {
+    width: 100%;
+    border-top-style: solid;
+    border-color: black;
+    border-top-width: 1px;
+}
+
+
+/*Classes for images*/
+.img-header {
+    display: flex;
+    justify-content: center;
+    height: 3%;
+    width: 3%;
+}
+.img-home {
+    margin-left: 50%;
+}
+.img-others-header {
+    margin-left: 2%;
+}
+.img-logo {
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    height: 45%;
+}
+.img-turno-logo {
+    height: 15%;
+    width: 15%;
+}
+.img-calendar-logo {
+    height: 15%;
+    width: 15%;
+}
+.img-membership-logo {
+    height: 15%;
+    width: 15%;
+}
+.img-question-logo {
+    height: 15%;
+    width: 15%;
+}
+
+
+/*Style by buttons*/
+.button-readmore {
+    position: relative;
+    top: 52%;
+    border-color: #49A37B;
+    border-width: 1px;
+    border-radius: 5%/15%;
+}
+
+/*Style by paragraphs*/
+.landing-section-presentation-pp {
+    display: flex;
+    height: 15px;
+    width: 400px;
+}
+.landing-functions-pp {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+/*Style by sections*/
+.landing-section-presentation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 350px;
+    width: 100%;
+    padding-bottom: 50px;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+.landing-section-functions {
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+.landing-section-about {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 230px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+    
+.landing-section-inquiries {
+    position: relative;
+    margin-top: 15px;
+    height: 500px;
+    width: 100%;
+    border-bottom-style: solid;
+    border-color: black;
+    border-bottom-width: 1px;
+}
+.landing-section-plans {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: 100%;
+}
+
+/*Sub-sections into landing-section-function*/
+.landing-functions-subtitle {
+    display: flex;
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+}
+.landing-section-functionbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+
+/*Sub-sections into landing-section-about*/
+.landing-about-subsection-title {
+    display: flex;
+    left: 10px;
+    width: 150px;
+}
+.landing-about-subsection-pp {
+    display: flex;
+    left: 250px;
+    width: 950px;
+    top: -100px;
+}
+
+/*Sub-sections into landing-section-inquiries */
+.landing-inquiries-subsection-inquirie {
+    position: relative;
+    width: 350px;
+}
+.landing-inquiries-subsection-reason {
+    position: relative;
+    top: -150px;
+    left: 550px;
+    width: 320px;
+}
+.landing-inquiries-subsection-comments {
+    position: relative;
+    top: -110px;
+    width: 350px;
+}
+
+/*Sub-sections into landing-section-plans*/
+.landing-section-subplans {
+    display: flex;
+    flex-direction: column;
+
+}
+.landing-section-plans-subtitles {
+    position: relative;
+    left: 30px;
+}
+.landing-inquiries-checkbox-align {
+    display: flex;
+}
+
+/*Footer styles*/
+.landing-footer-images{
+    display: flex;
+    justify-content: center;
+}
+.landing-footer-logos {
+    display: flex;
+    justify-content: center;
+}
