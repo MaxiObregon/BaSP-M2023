@@ -1,0 +1,160 @@
+* {
+    font-family: "Roboto", "font-family"; 
+    margin: 0px;      
+    box-sizing: border-box;
+}
+
+
+/*GENERAL STYLES*/
+a {
+text-decoration: none;
+}
+input {
+margin: 10px;
+}
+
+
+/*HEADER*/
+header {
+display: flex;
+height: 100%;
+background-color: #49A37B;
+height: 15vh;
+}    
+.img-logo {
+height: 100%;
+width: 30%;
+}
+.header-div-first {
+width: 33%;
+
+}
+.header-div-second {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+justify-content: center;
+width: 33%;
+}
+.header-div-third {
+display: flex;
+justify-content: end;
+width: 33%;
+}
+.header-link {
+color: white;
+font-size: 125%;
+}
+
+
+/*MAIN*/
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 75vh;
+}
+.main-div-general {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 80%;
+width: 45%;
+background-color: #FDFBFB;
+}
+.main-div-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 45%;
+}
+.main-div-input-first {
+display: flex;
+flex-direction: column;
+margin: 4%;
+}
+.main-div-input-first {
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+}
+.main-div-button {
+display: flex;
+margin: 3%;
+}
+.main-button {
+width: 200px;
+height: 40px;
+background-color: #49A37B;
+color: white;
+border-radius: 8px;
+border-color: white;
+}
+.main-input {
+width: 400px;
+height: 30px;
+}
+.main-link {
+color: black;
+font-size: medium;
+}
+
+
+
+/**/
+footer {
+height: 10vh;
+background-color: #49A37B;
+}
+.footer-div-main {
+display: flex;
+}
+.footer-div-first {
+display: flex;
+align-items: center;
+width: 33%;
+
+}
+.footer-div-second {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 33%;
+
+}
+.footer-div-third {
+display: flex;
+align-items: center;
+justify-content: end;
+width: 33%;
+}
+.footer-button{
+position: relative;
+left: 60px;
+background-color: #121234;
+color: white;
+width: 100px;
+height: 30px;
+border-radius: 20px;
+}
+.footer-copyright {
+color: white;
+}
+.footer-img {
+position: relative;
+right: 40px;
+margin: 5px;
+width: 50px;
+height: 50px;
+}
+
+/*JAVASCRIPT*/
+.green-border {
+    border: 4px solid green;
+}
+.red-border {
+    border: 4px solid red;
+}
