@@ -22,7 +22,7 @@ Repetir Contraseña: Al menos 8 caracteres, formados por letras y números.
 
 
                 input-name: Primer letra mayúscula, solo puede contener letras y debe tener mas de tres letras.
-                input-lastname: Solo letras, primera letra mayúscula y debe contener mas de tres letras 
+                input-lastname: Solo letras y debe contener mas de tres letras 
                 input-DNI: solo numeros y debe tener 8 numeros
                 input-birthday: Con formato dd/mm/aaa
                 input-phone: Solo numeros y debe tener nueve numeros

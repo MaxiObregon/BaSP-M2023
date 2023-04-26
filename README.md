@@ -49,10 +49,13 @@ I added what I learned in week four:
 - I complete all the Javascript exercises that corresponding to the fifth deliver.
 - The error of the link to the repository was fixed.
 
-## Link to repository of the fourth week:
-https://maxiobregon.github.io/BaSP-M2023/Week_04/
-## Link to repository of the fifth week: 
-https://maxiobregon.github.io/BaSP-M2023/Week_05/
+## Week 06
+-I create an HTML and CSS for the sign-in and login pages.
+-I add the necessary .js code to create a validations into the inputs of both pages. 
+-I modify some small errors like the name of the documents and folders.
+
+## Link to repository of the sixth week: 
+https://maxiobregon.github.io/BaSP-M2023/Week-06/
 
 ## Authors
 -Maximiliano Obregón

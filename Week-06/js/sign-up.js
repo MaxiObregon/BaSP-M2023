@@ -1,5 +1,6 @@
 window.onload = function(){
 
+/*EMAIL VALIDATION */
     var inputEmail = document.querySelector('#input-mail');
 
     inputEmail.addEventListener('blur', function() {
@@ -31,7 +32,7 @@ window.onload = function(){
     }
     
     
-    /*VALIDACIÓN DE PASSWORD */
+/*PASSWORD VALIDATION */
     var inputPassword = document.querySelector('input[name="input-pwd"]');
     
     inputPassword.addEventListener('input', function() {
